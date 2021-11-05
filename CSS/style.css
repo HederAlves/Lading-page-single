@@ -67,3 +67,63 @@ footer {
 	letter-spacing: 2px;
 	line-height: 1.5;
 }
+
+
+   /*mobile*/
+
+@media(max-width: 780px) {
+
+	body{
+		background:url("../images/bg-mobile.png") hsl(257, 40%, 49%);
+		background-repeat: no-repeat;
+		width: 375px;
+	}
+
+	header {
+		margin: 0px;
+	}
+
+	.logo {
+		width: 40%;
+		margin: 30px 50px 0px 42px;
+	}
+
+	main {
+		display: flex;
+	    flex-direction: column;
+	    width: 100%;
+	    margin: 0px;
+	}
+
+	.ilustracao {
+		margin: 80px 50px 0px 42px;
+		width: 80%;
+	}
+
+	.blocoRegistro {
+		margin: 50px 5px 0px 5px;
+		text-align: center;
+		font-size: 14px;
+	}
+
+	h1 {
+		width: initial;
+		font-size: 25px;
+	}
+
+	.textoRegistro {
+		width: 85%;
+		font-size: 14px;
+		margin: 25px 25px 0px 25px;
+	}
+
+	button {
+		width: 80%;
+		margin: 50px 0px 0px 35px;
+	}
+
+	footer {
+		font-size: 14px;
+		padding: 0px 10px;
+	}
+}
