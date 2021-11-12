@@ -90,40 +90,42 @@ footer {
 
 	main {
 		display: flex;
-	    flex-direction: column;
-	    width: 100%;
-	    margin: 0px;
+	   flex-direction: column;
+	   width: 100%;
+	   margin: 0px;
 	}
 
+
 	.ilustracao {
-		margin: 80px 50px 0px 42px;
+		margin: 17px;
 		width: 80%;
 	}
 
 	.blocoRegistro {
-		margin: 50px 5px 0px 5px;
+		margin: 0px;
 		text-align: center;
 		font-size: 14px;
 	}
 
 	h1 {
-		width: initial;
+		width: 90%;
 		font-size: 25px;
 	}
 
+	.p {
+		margin-left: 10px;
+		text-align: center;
+	}
+
 	.textoRegistro {
-		width: 85%;
+		width: 80%;
 		font-size: 14px;
-		margin: 25px 25px 0px 25px;
+		margin-left: 19px
 	}
 
 	button {
 		width: 80%;
-		margin: 50px 0px 0px 35px;
+		margin-left: 16px;
 	}
 
-	footer {
-		font-size: 14px;
-		padding: 0px 10px;
-	}
 }
