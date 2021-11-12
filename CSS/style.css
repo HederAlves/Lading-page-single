@@ -59,16 +59,6 @@ button:hover {
 
 }
 
-footer {
-	margin-top: 50px;
-	text-align: center;
-	color: white;
-	font-size: 18px;
-	letter-spacing: 2px;
-	line-height: 1.5;
-}
-
-
    /*mobile*/
 
 @media(max-width: 780px) {
