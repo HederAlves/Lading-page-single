@@ -59,6 +59,16 @@ button:hover {
 
 }
 
+footer {
+	margin-top: 50px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}
+
+
    /*mobile*/
 
 @media(max-width: 780px) {
@@ -66,11 +76,13 @@ button:hover {
 	body{
 		background:url("../images/bg-mobile.png") hsl(257, 40%, 49%);
 		background-repeat: no-repeat;
-		width: 375px;
+		margin: 0px 0px;
 	}
 
 	header {
-		margin: 0px;
+
+		width: 375px;
+		margin: 50px 0px 0px 0px;
 	}
 
 	.logo {
@@ -87,7 +99,7 @@ button:hover {
 
 
 	.ilustracao {
-		margin: 17px;
+		margin: 40px;
 		width: 80%;
 	}
 
@@ -98,24 +110,25 @@ button:hover {
 	}
 
 	h1 {
+		margin-left: 20px;
 		width: 90%;
 		font-size: 25px;
 	}
 
 	.p {
-		margin-left: 10px;
+		margin-left: 40px;
 		text-align: center;
 	}
 
 	.textoRegistro {
 		width: 80%;
 		font-size: 14px;
-		margin-left: 19px
+		margin:40px 0px 0px 40px;
 	}
 
 	button {
 		width: 80%;
-		margin-left: 16px;
+		margin: 40px 0px 0px 40px;
 	}
 
 }
