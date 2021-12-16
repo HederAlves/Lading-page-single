@@ -91,7 +91,7 @@ footer {
 	}
 
 	main {
-	   display: flex;
+		display: flex;
 	   flex-direction: column;
 	   width: 100%;
 	   margin: 20px;
