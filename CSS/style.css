@@ -91,10 +91,10 @@ footer {
 	}
 
 	main {
-		display: flex;
+	   display: flex;
 	   flex-direction: column;
 	   width: 100%;
-	   margin: 0px;
+	   margin: 20px;
 	}
 
 
